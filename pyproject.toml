@@ -1,0 +1,26 @@
+[project]
+name = "remote-sensing-ml"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "emredonger", email = "emredonger@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "datasets>=4.4.1",
+    "matplotlib>=3.10.7",
+    "numpy>=2.3.5",
+    "scikit-image>=0.25.2",
+    "scikit-learn>=1.7.2",
+]
+
+[project.scripts]
+remote-sensing-ml = "remote_sensing_ml:main"
+
+[build-system]
+requires = ["uv_build>=0.9.5,<0.10.0"]
+build-backend = "uv_build"
+
+[tool.uv]
+package = true
