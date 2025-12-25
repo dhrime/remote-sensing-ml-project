@@ -72,8 +72,6 @@ def main():
     X_sub, y_sub = get_subsample(X_train_val_all, y_train_val)
     print(f"\nUsing {len(X_sub)} samples for experiments (subsampled for speed)")
     
-    """
-    
     # ========== Experiment 1: Varying C ==========
     # Controlled: gamma=0.001, PCA=90% variance, No Scaler
     print("\n" + "="*60)
@@ -402,8 +400,6 @@ def main():
     plt.savefig('svm_exp6_feature_combinations.png', dpi=300, bbox_inches='tight')
     print(f"Saved plot: svm_exp6_feature_combinations.png")
     plt.close()
-    
-"""
     
     # ========== Experiment 7: Learning Curve ==========
     # Controlled: C=1000, gamma=0.001, No PCA, No Scaler
