@@ -457,8 +457,6 @@ def main():
     print(f"Saved plot: svm_exp7_learning_curve.png")
     plt.close()
     
-    """
-    
     # ========== Experiment 8: PCA Variance Retention ==========
     # Using All Combined features with controlled params: C=10000, gamma=0.001, No Scaler
     print("\n" + "="*60)
@@ -535,8 +533,6 @@ def main():
     plt.savefig('svm_exp8_pca_variance.png', dpi=300, bbox_inches='tight')
     print(f"Saved plot: svm_exp8_pca_variance.png")
     plt.close()
-    
-    """
     
     # ========== Summary ==========
     print("\n" + "="*60)
